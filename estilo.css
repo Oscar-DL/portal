@@ -9,7 +9,7 @@ h3 {margin: 0;}
 a {text-decoration: none; color: white;}
 div {display: inline-block;}
 section {background: #31363d; position: relative; margin: 0;}
-.tittle {background: url("images/biblioteca.jpg") fixed; background-size: 100% 100%; 
+.tittle {background: url("images/biblioteca.jpg") fixed; background-size: 100%; 
         background-repeat: no-repeat; width: 100%; display: flex;}
 .layerback {width: 100%; height: 100%; background: rgba(0,0,0,0.5)}
 .part {font-weight: bolder; font-family: Anton; color: #2a4685; background: #fff; display: inline-block; 
