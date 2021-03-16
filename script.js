@@ -1,15 +1,14 @@
 let prinsipalubication = window.pageYOffset;
-window.onscroll = function() {
+window.onscroll = function () {
     let scrollubication = window.pageYOffset;
-    if(prinsipalubication >= scrollubication ){
+    if (prinsipalubication >= scrollubication) {
         document.getElementById('navbar').style.top = "0px";
-    }
-    else{
+    } else {
         document.getElementById('navbar').style.top = "-100px";
     }
     prinsipalubication = scrollubication;
 }
-window.onload = function(){
+window.onload = function () {
     var cotainer = document.getElementById('loadercontainer');
     cotainer.style.visibility = 'hidden';
     cotainer.style.opacity = '0';
