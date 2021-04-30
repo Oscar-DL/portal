@@ -681,4 +681,31 @@ input[id="11"]:checked~.pagination .pagination-item[for="11"] {
     height: 0.70em;
     display: inline;
 }
-.name {margin: 0; background: #2a4673; display: block; padding: 0.5em;}
+
+.name {
+    margin: 0;
+    background: #2a4673;
+    display: block;
+    padding: 0.5em;
+}
+
+.linkscontainer {
+    height: 25em;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.links {
+    width: 33%;
+    display: inline-block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.links img {
+    width: 100%;
+    height: 100%;
+}
